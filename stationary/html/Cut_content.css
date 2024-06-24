@@ -1,0 +1,76 @@
+/* Animations of Color on Hover */
+
+.animate-gradient {
+  animation-delay: 3s;
+  animation: gradientAnimation 500s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(
+      to right,
+      #2c3e50,
+      #310660
+    ); /* Dark and sky blue */
+  }
+  20% {
+    background: linear-gradient(
+      to right,
+      #2c3e50,
+      #3498db
+    ); /* Dark and sky blue */
+  }
+  25% {
+    background: linear-gradient(
+      to right,
+      #ff0080,
+      #00ff80
+    ); /* Neon pink and neon green */
+  }
+  45% {
+    background: linear-gradient(
+      to right,
+      #ff0080,
+      #00ff80
+    ); /* Neon pink and neon green */
+  }
+  50% {
+    background: linear-gradient(
+      to right,
+      #1a2a6c,
+      #b21f1f,
+      #fdbb2d
+    ); /* Dark blue, red, and yellow */
+  }
+  70% {
+    background: linear-gradient(
+      to right,
+      #1a2a6c,
+      #b21f1f,
+      #fdbb2d
+    ); /* Dark blue, red, and yellow */
+  }
+  75% {
+    background: linear-gradient(
+      to right,
+      #0f2027,
+      #203a43,
+      #f4c4f3
+    ); /* Dark, darker, and light pink */
+  }
+  95% {
+    background: linear-gradient(
+      to right,
+      #0f2027,
+      #203a43,
+      #f4c4f3
+    ); /* Dark, darker, and light pink */
+  }
+  100% {
+    background: linear-gradient(
+      to right,
+      #2c3e50,
+      #3498db
+    ); /* Return to dark and sky blue */
+  }
+}
